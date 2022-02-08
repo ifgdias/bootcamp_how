@@ -1,0 +1,24 @@
+Aula 02 - Docker Compose com Postgres
+
+1. Criar arquivo docker-compose.yml
+
+2. Preencher com os serviços a serem executados
+
+3. Importante manter o volume, que é o histórico /
+transações ocorridas no serviço, com:
+
+	volumes:
+		- "<volume_local>:<pasta_serviço_no_container>"
+
+4. Criar pastas dos volumes dos serviços
+
+5. Subir os serviços com:
+
+	docker-compose up -d <nome_serviço>
+
+6. Parar docker-compose
+
+	crtl+c
+	docker-compose down
+
+

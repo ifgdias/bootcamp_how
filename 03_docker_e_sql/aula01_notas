@@ -1,0 +1,38 @@
+
+Aula 01
+- Subir servidor web apache httpd
+com Docker.
+
+1. Criar Dockerfile
+2. Importar imagem
+
+	FROM http:<version>
+
+3. Copiar arquivos locais para
+raiz do servidor
+
+	COPY <filepath> <raizimagem>
+
+4. Expor porta de acesso
+
+	EXPOSE <port>
+
+5. Criar container
+
+	docker build -t <nome> <localarquivos>
+
+6. Listar imagens
+
+	docker image ls
+
+7. Subir container
+
+	docker run -p <portaimagem>:<portalocal> <nome_imagem>
+
+	usar -d para detach, rodar sem travar terminal
+
+8. Derrubar imagem
+
+	docker ps -> listar containers ativos
+	docker stop <id>
+

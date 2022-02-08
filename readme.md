@@ -12,3 +12,10 @@ Repositório de arquivos do bootcamp realizado entre jan/22 e mar/22.
 ## Módulos
 
 * 01 - Introdução à Engenharia de Dados
+* 02 - Ingestão de dados
+* 03 - Docker e SQL
+* 04 - APIs, ingestors e POO
+* 05 - Crawlers com Selenium
+* 06 - Testes unitários, de integração e Jenkins
+* 07 - Git e Github
+

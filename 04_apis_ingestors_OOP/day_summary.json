@@ -1,0 +1,2 @@
+{"error": "Invalid requested day: only past days have summarized data."}
+{"date": "2022-02-01", "opening": 205507.2473216, "closing": 205269.87599, "lowest": 203117.00013, "highest": 208000, "volume": "8490807.00085016", "quantity": "41.29705805", "amount": 5242, "avg_price": 205603.19310324}
